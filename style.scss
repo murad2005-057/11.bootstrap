@@ -1,0 +1,57 @@
+.container-{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+display: flex;
+  
+// background-color: blue;
+   
+}
+hr{
+    opacity: .55;
+}
+li{
+    list-style: none;
+   padding: 0 0 20px  0;
+
+}
+.admin{
+   height: 900px;
+    padding: 30px;
+    background-color: blue;
+    color: #fff;
+}
+
+.search{
+
+    align-items: center;
+    height: 70px;
+
+}
+
+.right{
+  
+background-color: black;
+height: 70px;
+}
+.icon{
+    
+    // margin-right: 100px;
+ 
+    width: 250px;
+    height: 80px;
+
+}
+
+.content{
+    display:flex;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
