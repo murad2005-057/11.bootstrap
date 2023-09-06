@@ -17,28 +17,77 @@ li {
 }
 
 .admin {
-  height: 900px;
+  height: 1000px;
   padding: 30px;
   background-color: blue;
   color: #fff;
 }
 
 .search {
-  align-items: center;
-  height: 70px;
+  background-color: #dddddd;
 }
 
-.right {
-  background-color: black;
-  height: 70px;
+.cards {
+  background-color: #fff;
+  justify-content: space-around;
+}
+.cards .card-1 {
+  margin-left: -10px;
+  border-left: 4px solid blue;
+  border-radius: 5px 0 0 5px;
+}
+.cards .card-2 {
+  border-left: 4px solid green;
+  border-radius: 5px 0 0 5px;
+}
+.cards .card-3 {
+  margin-right: 50px;
+  border-left: 4px solid lightseagreen;
+  border-radius: 5px 0 0 5px;
+}
+.cards .card-4 {
+  border-left: 4px solid orange;
+  border-radius: 5px 0 0 5px;
 }
 
-.icon {
-  width: 250px;
-  height: 80px;
+.card {
+  margin-top: 30px;
+}
+.card h5 {
+  color: grey;
+}
+.card sup {
+  color: grey;
 }
 
-.content {
-  display: flex;
-  background-color: aqua;
+.medium p {
+  font-size: 20px;
+  color: grey;
+}
+.medium a {
+  text-decoration: none;
+}
+.medium a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.card-body {
+  border-radius: 7px;
+  color: #fff;
+}
+.card-body h5 {
+  color: #fff;
+}
+.card-body .card-text {
+  font-size: 15px;
+  color: lightgrey;
+}
+
+.card-item-4 .card-title {
+  color: #fff;
+}
+.card-item-4 .card-text {
+  font-size: 15px;
+  color: lightgrey;
 }/*# sourceMappingURL=style.css.map */
