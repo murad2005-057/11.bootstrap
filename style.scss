@@ -82,12 +82,12 @@ color: blue;
     border-radius: 7px;
     color: #fff;
     h5{
-        color: #fff;
+        color: grey;
       
     }
     .card-text{
         font-size: 15px;
-        color: lightgrey;
+        color: grey;
     }
 }
 .card-item-4{
@@ -97,11 +97,21 @@ color: blue;
     }
     .card-text{
         font-size: 15px;
-        color: lightgrey;
+        color: grey;
     }
 }
 
+.dashboard{
+    padding: 10px;
 
+span{
+    font-family: 'Rubik', sans-serif;
+}
 
+}
+
+.icon{
+    margin-left: 200px;
+}
 
 

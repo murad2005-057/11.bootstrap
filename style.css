@@ -77,11 +77,11 @@ li {
   color: #fff;
 }
 .card-body h5 {
-  color: #fff;
+  color: grey;
 }
 .card-body .card-text {
   font-size: 15px;
-  color: lightgrey;
+  color: grey;
 }
 
 .card-item-4 .card-title {
@@ -89,5 +89,16 @@ li {
 }
 .card-item-4 .card-text {
   font-size: 15px;
-  color: lightgrey;
+  color: grey;
+}
+
+.dashboard {
+  padding: 10px;
+}
+.dashboard span {
+  font-family: "Rubik", sans-serif;
+}
+
+.icon {
+  margin-left: 200px;
 }/*# sourceMappingURL=style.css.map */
