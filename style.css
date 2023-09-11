@@ -17,7 +17,7 @@ li {
 }
 
 .admin {
-  height: 1000px;
+  height: 100%;
   padding: 30px;
   background-color: blue;
   color: #fff;
@@ -29,10 +29,8 @@ li {
 
 .cards {
   background-color: #fff;
-  justify-content: space-around;
 }
 .cards .card-1 {
-  margin-left: -10px;
   border-left: 4px solid blue;
   border-radius: 5px 0 0 5px;
 }
@@ -41,7 +39,6 @@ li {
   border-radius: 5px 0 0 5px;
 }
 .cards .card-3 {
-  margin-right: 50px;
   border-left: 4px solid lightseagreen;
   border-radius: 5px 0 0 5px;
 }
@@ -50,9 +47,6 @@ li {
   border-radius: 5px 0 0 5px;
 }
 
-.card {
-  margin-top: 30px;
-}
 .card h5 {
   color: grey;
 }
